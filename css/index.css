@@ -1,0 +1,54 @@
+* {
+  background-color: #1E2939;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #040825;
+  background-image: url('../images/temp-background.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 800px;
+  width: 100%;
+}
+nav img, nav ul, nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li {
+  padding: 5px;
+  padding-right: 20px;
+  background: transparent;
+}
+
+nav ul {
+  margin-bottom: 15px;
+  float: right;
+  margin-right: 30px;
+  background: transparent;
+}
+
+nav a {
+  font-size: 1.1em;
+  text-decoration: none;
+  background: transparent;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+nav button {
+  background-color: #EFC150;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  border: none;
+  text-align: center;
+}
+
+nav button:hover {
+  background-color: #D8A353;
+}
