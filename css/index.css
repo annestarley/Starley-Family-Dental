@@ -1,6 +1,7 @@
 * {
   color: white;
   font-family: 'Didact Gothic', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
@@ -82,7 +83,7 @@ nav button, .welcome-message button {
   text-align: center;
 }
 
-nav button:hover, .welcome-message button:hover {
+nav button:hover, .welcome-message button:hover, .located-here button:hover {
   background-color: #D8A353;
 }
 
@@ -114,6 +115,130 @@ nav button:hover, .welcome-message button:hover {
 
 /* BODY */
 .body {
-  height: 1000px;
-  background-color: #1E2939;
+  /* background-image: url(https://1b1yv52ujvss1ngn2wehxg0y-wpengine.netdna-ssl.com/wp-content/themes/rsd/assets/img/signature-bg.jpg); */
+  background: url('../images/temp-background-bottom.png');
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.spacer {
+  height: 75px;
+  background: url('../images/temp-background-bottom.png');
+  /* border-top: 5px solid #EFC150; */
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* EMERGENCY */
+.emergency-welcome {
+  width: 60%;
+  text-align: center;
+}
+
+.emergency-welcome h1, .emergency-welcome h2 {
+  color: #EFC150;
+}
+
+.emergency-welcome i {
+  color: #66a2c6;
+}
+
+.emergency-contact a {
+  color: #66a2c6;
+}
+
+.espanol {
+  text-decoration: underline;
+}
+
+/* OUR LOCATION */
+.located-here {
+  width: 20%;
+}
+
+.located-here h3 {
+  background: #66a2c6;
+  text-align: center;
+  padding: 5px;
+}
+
+.located-here p {
+  color: black;
+}
+
+.city {
+  margin-top: -12px;
+}
+
+.phone-number, .social-media span {
+  color: #66a2c6;
+}
+
+.phone-number:hover, .social-media span:hover {
+  color: #7FCAF7;
+}
+
+.located-here p, .located-here a {
+  margin-left: 10px;
+}
+
+.located-here a {
+  text-align: center;
+}
+
+.located-here button a {
+  text-decoration: none;
+}
+
+.located-here button {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 10px 15px;
+  background-color: #EFC150;
+  border: none;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.social-media span {
+  display: inline-block;
+  padding: 20px;
+}
+
+.social-media span:hover {
+  font-size: 2.3em;
+}
+
+/* INTRO */
+.intro {
+  width: 70%;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.intro p {
+  color: #b2c1c7;
+}
+
+.intro a {
+  color: #EFC150;
+  margin: auto;
+}
+
+/* SPACER2 */
+.spacer2 {
+  background-image: url(http://kcdentalcorner.com/wp-content/uploads/DentalCorner3of7-1024x683.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
 }
